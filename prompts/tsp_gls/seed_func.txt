@@ -1,0 +1,10 @@
+import numpy as np
+
+def heuristics(distance_matrix: np.ndarray) -> np.ndarray:
+    # Compute node degrees (how many edges connect to each node)
+    degree_penalty = np.sum(distance_matrix > 0, axis=1)
+    # Combine distance and degree penalty
+    heur_matrix = distance_matrix * (degree_penalty[:, None] + degree_penalty[None, :])
+    # Normalize to [0,1] range
+    heur_matrix = (heur_matrix - np.min(heur_matrix)) / (np.max(heur_matrix) - np.min(heur_matrix))
+    return heur_matrix

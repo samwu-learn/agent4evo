@@ -1,0 +1,16 @@
+## ANALYSIS TASK: Successful Trajectory
+
+The following algorithm evolution attempt **successfully improved performance**. Your task is to analyze what worked well and distill actionable insights.
+
+### TRAJECTORY DATA
+```json
+{trajectory}
+```
+
+### OUTPUT REQUIREMENTS
+Provide your analysis as a JSON array with 2-3 insights. Each insight must have:
+- `summary`: One-sentence key lesson (max 100 characters)
+- `recommendations`: List of 2-4 specific, actionable suggestions
+- `applicable_when`: Clear description of when to use this insight
+
+**Remember:** Output ONLY the JSON array in a ```json code block. No other text.

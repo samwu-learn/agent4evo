@@ -1,0 +1,1 @@
+def heuristics(demand: np.ndarray, capacity: int) -> np.ndarray:

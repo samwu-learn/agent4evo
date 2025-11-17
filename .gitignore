@@ -1,0 +1,12 @@
+# Python cache directories
+__pycache__/
+Results/
+temp_*/
+logs/
+# macOS metadata files
+.DS_Store
+*.DS_Store
+dataset/
+memory.json
+out.log
+lib.log

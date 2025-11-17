@@ -1,0 +1,31 @@
+## TASK: Operator Selection for Next Generation
+
+Based on the current population statistics and historical trends, determine the optimal evolutionary strategy and select operators that best fit the situation.
+
+---
+
+## POPULATION STATISTICS
+{pop_stats}
+
+---
+
+## AVAILABLE OPERATORS
+
+{ops_desc}
+
+**Note**: Choose from exploration operators {exploration_ops} or exploitation operators {exploitation_ops}, but do not mix both categories.
+
+---
+
+## OUTPUT FORMAT
+
+**CRITICAL**: Provide your response as a JSON array in a ```json code block:
+
+```json
+[{{
+  "strategy": "exploration" or "exploitation",
+  "reasoning": "Concise explanation (2-3 sentences) citing specific metrics.",
+  "selected_operators": ["op1", "op2", "op3", "op4", "op5"],
+  "confidence": 0.0-1.0
+}}]
+```

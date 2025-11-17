@@ -1,0 +1,16 @@
+problem: tsp_constructive
+algorithm: reevo
+
+n_pop: 30              # 迭代轮数
+pop_size: 10            # 种群规模
+init_pop_size: 30       # 初始化时的候选数量
+timeout: 60            # 单次评估超时时间（秒）
+diversify_init_pop: true
+
+exp:
+  output_root: Results
+  run_name: auto
+  summary_name: summary.json
+
+logging:
+  level: INFO

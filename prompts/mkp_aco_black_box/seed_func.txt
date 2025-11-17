@@ -1,0 +1,3 @@
+def heuristics(item_attr1: np.ndarray, item_attr2: np.ndarray) -> np.ndarray:
+    n, m = item_attr2.shape
+    return np.ones(n,)

@@ -1,0 +1,48 @@
+## TASK: Improve Operator {operator_id}
+
+This operator has shown **{performance_status}** over the last {history_length} generations.
+
+### CURRENT OPERATOR DESCRIPTION
+```
+{current_description}
+```
+
+### PERFORMANCE HISTORY
+{performance_history}
+
+### POPULATION CONTEXT
+{population_context}
+
+### TOP PERFORMING ALGORITHMS
+{top_algorithms}
+
+---
+
+## YOUR ANALYSIS TASK
+
+Based on the performance trend and population characteristics, determine:
+
+1. **Should this be an incremental or radical improvement?**
+   - **Incremental**: Small refinement to guide toward better patterns (use when operator shows some success but needs tuning)
+   - **Radical**: Complete redesign with new focus (use when operator consistently underperforms or population needs dramatic shift)
+
+2. **What specific guidance should the improved description provide?**
+   - For EXPLORATION operators: What new search directions or mechanisms should be explored?
+   - For EXPLOITATION operators: What successful patterns should be emphasized or refined?
+
+3. **What should be avoided based on recent failures?**
+
+---
+
+## OUTPUT FORMAT
+
+Provide your response as a JSON object in a ```json code block:
+
+```json
+{{
+  "improvement_type": "incremental" or "radical",
+  "reasoning": "Detailed explanation of why this type of improvement is needed (2-3 sentences)",
+  "new_description": "The improved operator description that will guide algorithm generation",
+  "confidence": 0.0-1.0
+}}
+```

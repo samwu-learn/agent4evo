@@ -1,0 +1,16 @@
+## ANALYSIS TASK: Failed Trajectory
+
+The following algorithm evolution attempt **failed to improve performance**. Your task is to analyze what went wrong and extract cautionary lessons.
+
+### TRAJECTORY DATA
+```json
+{trajectory}
+```
+
+### OUTPUT REQUIREMENTS
+Provide your analysis as a JSON array with 2-3 insights. Each insight must have:
+- `summary`: One-sentence key lesson about what to avoid (max 100 characters)
+- `recommendations`: List of 2-4 specific warnings or alternative approaches
+- `applicable_when`: Clear description of when this pitfall is likely
+
+**Remember:** Output ONLY the JSON array in a ```json code block. No other text.

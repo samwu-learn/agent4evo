@@ -1,0 +1,24 @@
+## TASK: Evolve Algorithm Using Existing Solutions and Experiences
+
+You are tasked is to {op_desc}.
+
+### PARENT ALGORITHMS ({n_parents} total)
+Below are the existing algorithms that serve as the foundation for your new design:
+
+{prompt_indiv}
+
+---
+
+### DESIGN EXPERIENCES FROM PREVIOUS ATTEMPTS
+
+#### ✓ SUCCESSFUL EXPERIENCES
+**Learn from these positive examples - they represent effective design patterns:**
+
+{success_exp}
+
+#### ✗ FAILED EXPERIENCES
+**Avoid these mistakes and pitfalls - they led to poor performance:**
+
+{fail_exp}
+
+---

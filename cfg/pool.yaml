@@ -1,0 +1,16 @@
+# 记忆设置
+memory:
+  experience_top_k: 3
+  backend: "json"
+  chroma:
+    collection_name: "reasoning_bank"
+  json:
+    filepath: "memory.json"
+
+# 向量模型设置
+emb_model:
+  base_url: "https://dashscope.aliyuncs.com/compatible-mode/v1"
+  api_key: ${oc.env:OPENAI_API_KEY2,null}
+  embedding_model: "text-embedding-v4"
+  request_kwargs:
+    encoding_format: "float"

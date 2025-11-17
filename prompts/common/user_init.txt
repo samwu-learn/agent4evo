@@ -1,0 +1,11 @@
+## TASK: Generate Initial Algorithm
+
+You are tasked with designing a novel heuristic algorithm from scratch. This is the initial design phase where you will create the foundation for the evolutionary algorithm development process.
+
+### REFERENCE IMPLEMENTATION
+Below is a baseline implementation to illustrate the expected code structure and format:
+
+{seed_func}
+
+### ADDITIONAL DOMAIN KNOWLEDGE
+{external_knowledge}

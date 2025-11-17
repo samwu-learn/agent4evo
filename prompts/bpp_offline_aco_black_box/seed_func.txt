@@ -1,0 +1,3 @@
+def heuristics(node_attr: np.ndarray, node_constraint: int) -> np.ndarray:
+    n = node_attr.shape[0]
+    return np.ones((n, n))
