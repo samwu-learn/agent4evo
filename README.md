@@ -1,4 +1,4 @@
-# AgentEvo
+# REMIND
 
 A large language model (LLM)-driven evolutionary algorithm framework for automatically generating and optimizing heuristic algorithms for combinatorial optimization problems.
 
